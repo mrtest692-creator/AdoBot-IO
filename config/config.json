@@ -4,19 +4,21 @@
     "collate": "utf8_general_ci"
   },
   "development": {
-    "use_env_variable": "DATABASE_URL",
+    "username": "database_ado_user",
+    "password": "YndABciL520yM6FU55gjz4kMV0SEDBij",
+    "database": "database_ado",
+    "host": "dpg-d4q3meqdbo4c73bl8nm0-a",
     "dialect": "postgres",
     "admin": {
-      "username": {
-        "use_env_variable": "ADMIN_USERNAME"
-      },
-      "password": {
-        "use_env_variable": "ADMIN_PASSWORD"
-      }
+      "username": "admin",
+      "password": "adminpassword"
     }
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "username": "database_ado_user",
+    "password": "YndABciL520yM6FU55gjz4kMV0SEDBij",
+    "database": "database_ado",
+    "host": "dpg-d4q3meqdbo4c73bl8nm0-a",
     "dialect": "postgres",
     "pool": {
       "max": 5,
@@ -25,12 +27,8 @@
       "maxIdleTime": 120000
     },
     "admin": {
-      "username": {
-        "use_env_variable": "ADMIN_USERNAME"
-      },
-      "password": {
-        "use_env_variable": "ADMIN_PASSWORD"
-      }
+      "username": "database_ado_user",
+      "password": "YndABciL520yM6FU55gjz4kMV0SEDBij"
     }
   }
 }
