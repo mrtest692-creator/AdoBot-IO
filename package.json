@@ -25,6 +25,9 @@
     "url": "https://github.com/adonespitogo/dendroid-nodejs/issues"
   },
   "homepage": "https://github.com/adonespitogo/dendroid-nodejs#readme",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "body-parser": "^1.16.1",
     "del": "^3.0.0",
