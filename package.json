@@ -26,9 +26,8 @@
   },
   "homepage": "https://github.com/adonespitogo/dendroid-nodejs#readme",
   "engines": {
-  "node": "10.24.1"
- } 
-
+    "node": "10.24.1"
+  },
   "dependencies": {
     "body-parser": "^1.16.1",
     "del": "^3.0.0",
@@ -48,7 +47,9 @@
     "require-dir": "^0.3.1",
     "sequelize": "^3.30.2",
     "sequelize-cli": "^2.5.1",
-    "socket.io": "^1.7.2"
+    "socket.io": "^1.7.2",
+    "graceful-fs": "^4.2.10",
+    "phantomjs-prebuilt": "^2.1.16"
   },
   "devDependencies": {
     "gulp-jshint": "^2.1.0",
