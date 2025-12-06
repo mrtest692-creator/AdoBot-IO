@@ -13,7 +13,7 @@ if (env === 'development') {
 
     {
       host: config.development.host,
-      dialect: 'mysql',
+      dialect: 'postgres',
       dialectOptions: {
         charset: config.defaults.charset,
         collate: config.defaults.collate
